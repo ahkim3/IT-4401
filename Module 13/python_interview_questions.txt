@@ -1,0 +1,86 @@
+1. What is Python?
+A high-level programming language whose syntax relies heavily on proper indentation
+
+2. What is a variable?
+A symbolic name to a storage location for data
+
+3. What is a namespace?
+A collection of variables with a unique name identifier to avoid naming collisions
+
+4. What is the difference between list and tuple?
+A list is mutable, whereas a tuple is immutable
+
+5. How you can convert a number to a string?
+Using the str() function
+
+6. What are the rules for local and global variables?
+A local variable can only exist within a function's scope, whereas a global variable can be accessed anywhere in a program
+
+7. Explain how to generate random numbers
+Import the random module, then call random.randint(min, max)
+
+8. What is a dictionary?
+A data structure / collection that consists of key-value pairs
+
+9. What is the self keyword?
+Used to refer to the current instance of a class and its properties
+
+10. What are loop interruption statements?
+Break and continue; used to interrupt flow of a loop
+
+11. Explain List, Tuple, Set, and Dictionary and provide at least one instance where each of these collection types can be used.
+These are all collections. List is used for ordered, mutable collections of data; tuple is used for odered, immutable collections of data; set is used for unordered collections of unique data; and dictionary is used for unordered collections of key-value pairs
+
+12. How is Exception Handling done?
+Try-except blocks
+
+13. What does ‘#’ symbol do?
+Comment
+
+14. Write the command to get all keys from a dictionary.
+.keys()
+
+15. What is range()? Give an example to explain it.
+Generates a sequence of numbers. range(2, 10) will generate numbers from 2 to 10.
+
+16. What does the // arithmetic operator do?
+Integer division (rounds down to nearest integer)
+
+17. What is a data type?
+Defines type of data a variable can store
+
+18. What are the basic data types that are supported by the language?
+int, float, Boolean, string
+
+19. How do you check whether the two variables are pointing to the same object?
+Using the is operator
+
+20. What is for-else and while-else?
+Operates similar to a for/while loop, but the else condition is triggered if the entire loop is cycled through without a break
+
+21. What does immutable mean in the context of programming?
+Variable cannot be changed after its creation
+
+22. What is a list in Python?
+Ordered, mutable collection of elements
+
+23. What is a tuple in Python?
+Ordered, immutable collection of elements
+
+24. When do you choose a list over a tuple?
+If you need to change the elements later
+
+25. How do you get the last value in a list or a tuple?
+list[-1]
+
+26. What is Index Out Of Range Error?
+Occurs when an invalid index is attempted to be accessed
+
+27. Why should a program close a file when it is finished using it?
+To release system resources
+
+28. Assume the variable names references a list of strings like ["John", "Sally", "Dale", "Jose", "Apryl"]. Write code that determines whether 'Sally' is in the names list. If it is, display the message 'Hello Sally'.  Otherwise, display the message 'No Sally.
+if "Sally" in names:
+    print("Hello Sally")
+else:
+    print("No Sally")
